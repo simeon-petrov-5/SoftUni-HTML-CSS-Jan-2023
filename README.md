@@ -1,4 +1,4 @@
-# SoftUni-HTML-CSS-Sept-2022
+#  SoftUni-HTML-CSS-Jan-2023
 
 Course link: [HTML & CSS - януари 2023 ](https://softuni.bg/trainings/3975/html-and-css-january-2023)
 
