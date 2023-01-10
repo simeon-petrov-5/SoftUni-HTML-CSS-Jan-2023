@@ -1,0 +1,27 @@
+h1 {
+    font-size: 42px;
+    color: red;
+}
+
+#secondaryTitle,
+.item .nestedList li {
+    background-color: black;
+    color: white;
+}
+
+.text{
+    font-size: 21px;
+}
+
+#mainParagraph{
+    color: purple;
+}
+
+
+.item {
+    color: green;
+}
+
+/* .item .nestedList li{
+    color: red;
+} */
