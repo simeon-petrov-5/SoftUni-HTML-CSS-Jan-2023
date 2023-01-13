@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>FORMS</h1>
+
+    <form action="submitted.html" method="POST">
+      <div>
+        <label for="username">username</label>
+        <input id="username" name="username" type="text" placeholder="Simo" />
+      </div>
+
+      <div>
+        <label for="email">email</label>
+        <input id="email" name="email" type="email" placeholder="johndoe@mail.com"/>
+      </div>
+
+      <div>
+        <label for="password">Pass</label>
+        <input id="password" name="pass" type="password" />
+      </div>
+
+      <div>
+        <h2>Select a car brand</h2>
+        <label for="volvo">Volvo</label>
+        <input id="volvo" type="checkbox" value="VOLVO" name="brand" />
+
+        <label for="bmw">bmw</label>
+        <input id="bmw" type="checkbox" value="BMW" name="brand" />
+
+        <label for="audi">audi</label>
+        <input id="audi" type="checkbox" value="AUDI" name="brand" />
+      </div>
+
+      <div>
+        <h2>Select a location</h2>
+        <label for="de">Germany</label>
+        <input id="de" type="radio" name="location" value="de" />
+
+        <label for="bg">Bulgaria</label>
+        <input id="bg" type="radio" name="location" value="bg" />
+
+        <label for="fe">France</label>
+        <input id="fe" type="radio" name="location" value="fe" />
+      </div>
+
+      <div>
+        <div>
+          <label for="msg">Message</label>
+        </div>
+        <textarea name="" id="msg" cols="20" rows="10"></textarea>
+      </div>
+
+      <button>Submit <b>text</b></button>
+      <button type="reset">Reset</button>
+      <button type="button">Normal</button>
+
+      <!-- <input type="submit" value="x"> -->
+    </form>
+
+
+    <h2>Outside</h2>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button">Normal</button>
+  </body>
+</html>
