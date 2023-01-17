@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Simo";
+  src: url("fonts/ShadowsIntoLight-Regular.ttf");
+}
+
+p {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Simo", cursive;
+  /* font-size: 12px; */
+}
+
+.main-ul {
+  font-size: 18px;
+}
+
+.main-ul li {
+  font-size: 1.2em;
+}
+
+html {
+  font-size: 14px;
+}
+
+.main-ul {
+  font-size: 1.5rem;
+}
+
+.example3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: justify;
+  /* text-decoration: line-through; */
+  text-indent: 15px;
+
+  /* letter-spacing: 0.8px; */
+  line-height: 1.2;
+}
+
+.example4{
+  font-size: 21px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* text-transform: capitalize; */
+  /* word-break: normal; */
+  /* background-color: red; */
+  cursor: pointer;
+  /* outline: 50px solid red; */
+}

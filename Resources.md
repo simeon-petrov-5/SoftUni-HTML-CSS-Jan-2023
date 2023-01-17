@@ -12,3 +12,9 @@
 - The Difference Between `<section>` and `<div>` Element https://pineco.de/the-difference-between-section-and-div-element/
 - `<header>` https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
 - Content categories https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories
+
+## 03 CSS & Typography
+- Specifics on CSS Specificity
+ https://css-tricks.com/specifics-on-css-specificity/
+- web.dev Specificity https://web.dev/learn/css/specificity/
+- Web Safe Fonts https://www.guru99.com/web-safe-fonts-html-css.html

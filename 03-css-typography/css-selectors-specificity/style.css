@@ -1,0 +1,25 @@
+#text-f {
+  color: blue;
+}
+
+.lorem {
+  font-size: 21px;
+  color: red;
+}
+
+.lorem.text-2 {
+  color: green;
+}
+
+
+/* .unordered .ul-item {
+  color: green;
+}
+
+.ordered .ol-item {
+  color: blue;
+} */
+
+.btn {
+  background-color: pink;
+}

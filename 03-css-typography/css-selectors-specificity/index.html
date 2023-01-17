@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Selectors example</title>
-    <link rel="stylesheet" href="style.css" />
+    
     <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1 id="main-title" class="title">Example title</h1>
 
     <p id="text-f" class="text-1 first lorem">Lorem, ipsum dolor.</p>
-    <p id="text-s" class="text-2 second lorem">Lorem, ipsum dolor.</p>
+    <p id="text-s" class="text-2 second lorem">
+      Lorem, ipsum <span class="text-2">DEMO</span>.
+    </p>
 
     <ul class="unordered">
       <li class="ul-item lorem">Lorem, ipsum.</li>
@@ -26,6 +29,6 @@
       </ol>
     </ul>
 
-    <button class="btn">UI Library component</button>
+    <button class="btn danger">UI Library component</button>
   </body>
 </html>
