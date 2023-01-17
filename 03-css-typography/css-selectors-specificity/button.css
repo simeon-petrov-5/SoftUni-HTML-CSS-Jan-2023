@@ -1,0 +1,23 @@
+.btn {
+  background-color: var(--btn-bg, lightgray);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+.btn.danger {
+  background-color: red;
+}
+.btn.success {
+  background-color: green;
+}
+.btn.warn {
+  background-color: orange;
+}
