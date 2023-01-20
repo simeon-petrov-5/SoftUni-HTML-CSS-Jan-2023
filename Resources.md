@@ -18,3 +18,9 @@
  https://css-tricks.com/specifics-on-css-specificity/
 - web.dev Specificity https://web.dev/learn/css/specificity/
 - Web Safe Fonts https://www.guru99.com/web-safe-fonts-html-css.html
+
+
+## 04 Exercise HTML & CSS
+-Child and Sibling Selectors https://css-tricks.com/child-and-sibling-selectors/
+- :nth Tester https://css-tricks.com/examples/nth-child-tester/
+- https://frontend30.com/css-selectors-cheatsheet/

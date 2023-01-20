@@ -1,0 +1,28 @@
+.link:visited {
+  color: red;
+}
+
+.link:active {
+  color: green;
+}
+
+
+.btn{
+    background-color: yellow;
+}
+
+.btn:hover{
+    background-color: orange;
+}
+
+.btn:disabled{
+    background-color: lightgray;
+    color: darkgray
+}
+
+.input:focus{
+    background-color: gray;
+}
+.input:active{
+    background-color: red;
+}

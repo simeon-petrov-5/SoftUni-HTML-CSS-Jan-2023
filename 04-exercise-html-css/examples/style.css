@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url('./text.css');
+
+/* @font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2)
+    format("woff2");
+} */
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+p .special-text {
+  color: green;
+  text-transform: uppercase;
+  font-weight: 700;
+}

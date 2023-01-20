@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Child selectors</h1>
+
+    <h2>Direct child</h2>
+    <ul>
+      <li>Lorem.</li>
+      <li>Nihil.</li>
+      <li>Dolores?</li>
+      <ol>
+        <li>Lorem, ipsum.</li>
+        <li>Iusto, suscipit!</li>
+      </ol>
+    </ul>
+
+    <h2>Adjacent sibling</h2>
+    <div class="container-adjacent">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Ullam temporibus autem aliquid magni.</p>
+      <!-- <p>Odit quaerat accusantium sit labore?</p> -->
+      <div>
+        I'm a DIV
+        <p>NESTED lorem 1</p>
+        <p>NESTED lorem 2</p>
+        <p>NESTED lorem 3</p>
+      </div>
+      <p>Lorem, ipsum dolor.</p>
+      <p>Lorem, ipsum dolor.</p>
+    </div>
+
+    <h2>General sibling</h2>
+    <div class="container-general">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Ullam temporibus autem aliquid magni.</p>
+      <p>Odit quaerat accusantium sit labore?</p>
+      <div>I'm a DIV</div>
+      <p>Lorem, ipsum dolor.</p>
+      <p>Lorem, ipsum dolor.</p>
+    </div>
+
+
+    <h2>Nth child</h2>
+    <ul class="nth-example">
+        <li>Lorem.</li>
+        <li>Fuga?</li>
+        <li>Molestiae.</li>
+        <li>Repellendus!</li>
+        <li>Aperiam.</li>
+        <li>Non!</li>
+        <li>Ipsam?</li>
+        <li>Quas.</li>
+        <li>Modi.</li>
+        <li>Praesentium.</li>
+    </ul>
+  </body>
+</html>
