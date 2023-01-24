@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before{
+box-sizing: border-box;
+}
+
+
+.card{
+    background-color: lightblue;
+    border-radius: 4px;
+    padding: 8px 30px;
+    width: 200px;
+    border: 2px solid blue;
+    margin: 20px;
+}
+
+
+/* .card.fixed{
+    box-sizing: border-box;
+} */

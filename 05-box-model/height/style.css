@@ -1,0 +1,35 @@
+.block {
+  background-color: orange;
+  /* height: 80px; */
+  height: 120px;
+  /* width: 400px; */
+  overflow: hidden;
+}
+
+.half-container {
+  background-color: lightcoral;
+  height: 400px;
+}
+
+.mid-container {
+  height: 50%;
+  background-color: greenyellow;
+}
+
+.half-text {
+  background-color: lightseagreen;
+  height: 50%;
+}
+
+.inline {
+  background-color: orange;
+  width: 300px;
+  height: 300px;
+}
+
+.iblock {
+  display: inline-block;
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+}

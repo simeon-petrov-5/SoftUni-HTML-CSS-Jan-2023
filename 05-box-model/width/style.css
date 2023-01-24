@@ -1,0 +1,41 @@
+.block {
+  background-color: orange;
+  /* width: auto;
+  min-width: 300px;
+  max-width: 600px; */
+}
+
+.half-container{
+  background-color: lightcoral;
+  width: 50%;
+  min-width: 400px;
+}
+
+.half-text{
+  background-color: lightseagreen;
+  width: 50%;
+} 
+
+
+.inline{
+  background-color: orange;
+  width: 300px;
+}
+
+
+.iblock{
+  display: inline-block;
+  background-color: lightblue;
+  width: 300px;
+}
+
+.grid{
+  list-style: none;
+}
+
+.grid li {
+  display: inline-block;
+  height: 200px;
+  width: 30%;
+  background-color: pink;
+}
