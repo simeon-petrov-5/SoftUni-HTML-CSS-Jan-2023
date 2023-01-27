@@ -1,0 +1,36 @@
+body {
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #234465;
+  padding: 8px 32px;
+  height: calc(32px + (8px * 2));
+}
+
+.header__logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__links {
+  display: inline-block;
+  margin-left: 80px;
+  font-size: 0px;
+  vertical-align: middle;
+}
+
+.links__item {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.links__item:not(:last-child){
+    margin-right: 8px;
+}

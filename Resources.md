@@ -24,3 +24,12 @@
 -Child and Sibling Selectors https://css-tricks.com/child-and-sibling-selectors/
 - :nth Tester https://css-tricks.com/examples/nth-child-tester/
 - https://frontend30.com/css-selectors-cheatsheet/
+
+
+## 06 Exercise box-model
+CSS Resets:
+- https://andy-bell.co.uk/a-modern-css-reset/
+- https://meyerweb.com/eric/tools/css/reset/
+- https://www.joshwcomeau.com/css/custom-css-reset/
+- color palettes https://mycolor.space/
+- CSS Support features https://caniuse.com/

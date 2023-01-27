@@ -1,0 +1,12 @@
+.container {
+  border: 2px solid red;
+  padding: 10px;
+  height: 300px;
+}
+
+.element {
+  margin: 0;
+  margin-left: auto;
+  background-color: lightgreen;
+  width: 200px;
+}

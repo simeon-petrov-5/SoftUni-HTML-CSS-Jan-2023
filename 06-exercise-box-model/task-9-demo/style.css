@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid red;
+  padding: 5px;
+  font-size: 0px;
+}
+.container > * {
+  font-size: 16px;
+}
+
+.text {
+  display: inline-block;
+  padding: 5px;
+  background-color: gray;
+  border-radius: 6px;
+}
+
+.first {
+  width: 80%;
+  height:300px;
+}
+
+.second {
+  margin-left: 10px;
+  width: calc(20% - 10px);
+  vertical-align: top;
+}

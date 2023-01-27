@@ -1,0 +1,21 @@
+.container {
+  border: 2px solid red;
+  padding: 5px;
+  text-align: center;
+  height: 200px;
+}
+
+.text {
+  display: inline-block;
+  padding: 5px;
+  background-color: gray;
+  border-radius: 6px;
+  width: 100px;
+  vertical-align: middle;
+}
+
+/* .block{
+    background-color: orange;
+    width: 80%;
+    margin: 0 auto;
+} */
