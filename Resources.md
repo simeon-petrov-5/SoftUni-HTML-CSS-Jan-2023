@@ -33,3 +33,10 @@ CSS Resets:
 - https://www.joshwcomeau.com/css/custom-css-reset/
 - color palettes https://mycolor.space/
 - CSS Support features https://caniuse.com/
+
+## 07 Positioning, Float, Grid, z-index
+- Introduction to CSS layout https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction#summary
+- https://cssgridgarden.com
+- https://codingfantasy.com/games/css-grid-attack
+- https://elad.medium.com/css-position-sticky-how-it-really-works-54cd01dc2d46
+- https://cssbattle.dev

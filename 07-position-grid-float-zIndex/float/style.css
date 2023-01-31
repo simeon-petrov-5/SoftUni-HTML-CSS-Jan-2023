@@ -1,0 +1,18 @@
+img {
+  width: 300px;
+  float: right;
+  margin-left: 40px;
+}
+
+.float-container {
+  border: 3px dashed black;
+}
+
+/* .clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */

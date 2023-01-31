@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Merriweather;
+    src: url(/03_Brazil-Coffee/Merriweather-Regular.ttf);
+}
+ 
+@font-face {
+    font-family: Work Sans;
+    src: url(/03_Brazil-Coffee/WorkSans-Regular.ttf);
+}
+ 
+section {
+    border: 8px solid;
+    border-color: #e6e6e6;
+    padding: 16px;
+    width: 451px;
+    height: 540px;
+}
+ 
+h2 {
+    font-family: Merriweather, serif;
+    font-weight: 700;
+    margin: 1.2rem 0;
+    color: rgb(51, 51, 51);
+}
+ 
+div {
+    font-weight: 600;
+    font-size: 20px;
+ 
+}
+ 
+button {
+    width: 250px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #d5384d;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 8px 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+p {
+    font-family: Georgia, Cambria, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+}

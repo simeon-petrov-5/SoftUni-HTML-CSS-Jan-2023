@@ -1,0 +1,93 @@
+body {
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+.container {
+  width: 80%;
+  padding: 12px;
+  border: 2px dashed black;
+  margin-bottom: 32px;
+}
+
+.container img {
+  width: 350px;
+}
+
+/* STATIC example */
+.static {
+  background-color: lightblue;
+}
+
+.static img {
+  position: static;
+  top: 20px;
+  left: 20px;
+}
+
+/* RELATIVE example */
+
+.relative {
+  background-color: lightcoral;
+}
+
+.relative img {
+  /* display: inline-block;
+  width: 30%; */
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+/* .relative h2{
+  display: inline-block;
+} */
+
+/* ABSOLUTE example */
+
+.absolute {
+  background-color: #90ee90;
+  position: relative;
+}
+
+.absolute img {
+  width: 100px;
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  /* left: 20px; */
+}
+
+
+/* FIXED example */
+.fixed{
+  background-color: lightpink;
+  position: relative;
+}
+
+.fixed img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+/* STICKY example */
+.sticky{
+  background-color: lightsalmon;
+  /* height: 400px; */
+  /* overflow: auto; */
+}
+
+.sticky p, .sticky-test p{
+  font-size: 32px;
+}
+
+.sticky img{
+  position: sticky;
+  top: 0px;
+}
