@@ -40,3 +40,8 @@ CSS Resets:
 - https://codingfantasy.com/games/css-grid-attack
 - https://elad.medium.com/css-position-sticky-how-it-really-works-54cd01dc2d46
 - https://cssbattle.dev
+
+## 08 Exercise Position & grid
+- CSS Animations https://animate.style/
+- Pseudo elements https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+- CSS Transition https://www.w3schools.com/css/css3_transitions.asp

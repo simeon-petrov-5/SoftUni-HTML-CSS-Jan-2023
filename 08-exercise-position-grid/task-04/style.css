@@ -1,0 +1,115 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+  width: 1000px;
+  background-color: rgb(238, 238, 238);
+}
+main {
+  width: 700px;
+  position: relative;
+}
+
+header {
+  position: relative;
+  margin-top: 70px;
+}
+header .navigation-menu ul {
+  position: absolute;
+  right: 10px;
+  top: -65px;
+  display: inline-block;
+  list-style: none;
+}
+header .navigation-menu ul li {
+  color: rgb(0, 102, 0);
+  display: inline-block;
+  margin-left: 14px;
+}
+header .title {
+  position: absolute;
+  top: -70px;
+  font-size: 26px;
+}
+.first-img {
+  float: right;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 3px solid black;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) ;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+.second-article {
+  position: relative;
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 5%;
+}
+
+/* main article{
+  display: inline-block;
+  width: 65%;
+  margin-right: 5%;
+}
+
+main .category-container{
+  display: inline-block;
+  width: 28%;
+} */
+
+
+main article blockquote {
+  font-family: Georgia, serif;
+  color: #928f8d;
+  font-style: italic;
+  position: absolute;
+  left: 700px;
+  width: 240px;
+  bottom: 70px;
+  border-left: 4px solid #dddddd;
+  padding-left: 26px;
+}
+main article blockquote .author-name{
+  position: absolute;
+  right: 20px
+}
+.second-image{
+  float: left;
+  box-sizing: border-box;
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: rgba(0, 0, 0, 0.25) ;
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.category-container{
+ display: inline-block;
+ position: absolute;
+ bottom: 1300px;
+ left: 750px;
+ width: 400px;
+}
+.category-container .category-title, .social-title{
+  font-size: 22px;
+}
+.category-container .category-navigation ul li a, .social-navigation ul li a{
+  text-decoration: none;
+  color: #53974e;
+  list-style: square;
+}
