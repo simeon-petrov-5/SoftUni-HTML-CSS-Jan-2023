@@ -1,0 +1,43 @@
+/* General styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+.container {
+  padding: 12px;
+  border: 2px solid black;
+}
+
+.item {
+  padding: 12px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+
+.item:nth-child(1) {
+  background-color: #845ec2;
+}
+.item:nth-child(2) {
+  background-color: #0081cf;
+}
+.item:nth-child(3) {
+  background-color: #d65db1;
+}
+.item:nth-child(4) {
+  background-color: #ff9671;
+}
+.item:nth-child(5) {
+  background-color: #00c9a7;
+}
+.item:nth-child(6) {
+  background-color: #c34a36;
+}
+
+
+/* FLEXBOX */
