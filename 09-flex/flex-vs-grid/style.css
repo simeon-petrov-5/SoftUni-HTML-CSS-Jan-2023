@@ -39,15 +39,22 @@ body {
   background-color: #c34a36;
 }
 
-/* FLEXBOX */
+/* EXAMPLES GRID*/
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
 
-.container {
-  /* height: 500px; */
+/* EXAMPLES FLEX*/
+.container-flex {
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
+  gap: 12px;
+}
 
-  gap: 30px;
+.container-flex .item{
+    /* width: calc((100% - 24px) / 3); */
+    width: 30%;
+    flex-grow: 1;
 }

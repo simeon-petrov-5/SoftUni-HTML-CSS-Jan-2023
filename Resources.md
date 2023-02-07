@@ -45,3 +45,9 @@ CSS Resets:
 - CSS Animations https://animate.style/
 - Pseudo elements https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 - CSS Transition https://www.w3schools.com/css/css3_transitions.asp
+
+
+## 09 Flexbox
+- GAME Flex Box Adventure - https://codingfantasy.com/games/flexboxadventure
+- GAME FLEXBOX FROGGY - https://flexboxfroggy.com/
+- A Complete Guide to Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/

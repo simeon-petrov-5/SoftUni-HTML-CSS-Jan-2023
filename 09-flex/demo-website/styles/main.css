@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #234465;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%),
+    0 1px 3px 0 rgb(0 0 0 / 20%);
+  padding: 12px 32px;
+
+  display: flex;
+  align-items: center; 
+}
+
+.header .logo {
+  margin-right: 50px;
+}
+
+.navigation{
+    margin-right: auto;
+}
+
+.navigation .list {
+  display: flex;
+  gap: 12px;
+}
+
+.navigation .nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  all: unset;
+  padding: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn.btn-search{
+    margin-right: 12px;
+}

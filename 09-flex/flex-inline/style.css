@@ -42,12 +42,17 @@ body {
 /* FLEXBOX */
 
 .container {
-  /* height: 500px; */
-  display: flex;
-  /* flex-direction: column; */
+  width: calc(100% - 250px);
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-
   gap: 30px;
+}
+
+.random {
+  background-color: lightcoral;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
 }
