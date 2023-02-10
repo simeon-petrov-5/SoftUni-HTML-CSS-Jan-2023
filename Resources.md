@@ -51,3 +51,8 @@ CSS Resets:
 - GAME Flex Box Adventure - https://codingfantasy.com/games/flexboxadventure
 - GAME FLEXBOX FROGGY - https://flexboxfroggy.com/
 - A Complete Guide to Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+## 10 Flexbox exercise
+- EM, rems - https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+- em https://j.eremy.net/confused-about-rem-and-em/
+- CSS values and units https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages
