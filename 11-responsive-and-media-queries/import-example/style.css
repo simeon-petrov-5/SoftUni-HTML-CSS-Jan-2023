@@ -1,0 +1,14 @@
+@import "./orange.css" screen and (min-width: 600px);
+@import "./blue.css" screen and (min-width: 900px);
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+h1 {
+  color: red;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: normal;
+}

@@ -56,3 +56,10 @@ CSS Resets:
 - EM, rems - https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
 - em https://j.eremy.net/confused-about-rem-and-em/
 - CSS values and units https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages
+
+## 11 Media queries and responsive design
+- A Complete Guide to CSS Media Queries
+ https://css-tricks.com/a-complete-guide-to-css-media-queries/
+- Importing CSS rules conditionally https://developer.mozilla.org/en-US/docs/Web/CSS/@import#importing_css_rules_conditionally
+- What Is CSS @import And Why Can It Slow Down Websites? https://www.debugbear.com/blog/avoid-css-import
+- Media Queries for Standard Devices https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
