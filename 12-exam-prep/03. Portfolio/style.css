@@ -1,0 +1,159 @@
+:root {
+  --gray-light: #efefef;
+  --gray-dark: #909090;
+  --gray-black: #222222;
+}
+
+/* Global styles */
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--gray-black);
+}
+
+.page-section {
+  max-width: 1880px;
+  margin: 1.5rem auto;
+  background-color: var(--gray-light);
+  height: calc(100vh - 1.5rem);
+  padding: 3rem 5rem;
+  overflow: hidden;
+}
+
+.section-flexed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-flexed .section-info {
+  flex: 0 0 50%;
+}
+.section-flexed .section-img {
+  flex: 0 1 35%;
+}
+
+.page-section .title {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 2.5rem;
+}
+.page-section .desc {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.page-section .divider.vertical {
+  height: 6rem;
+  width: 1px;
+  background-color: var(--gray-black);
+}
+
+/* Hero */
+#hero.page-section {
+  position: relative;
+}
+
+#hero .navigation {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+#hero .hero-img {
+  position: absolute;
+  width: 50%;
+  bottom: 0px;
+  right: 5rem;
+}
+
+/* Camera */
+
+#camera .socials {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#camera .socials .social {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--gray-dark);
+  color: white;
+  position: relative;
+}
+
+#camera .socials .social i {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Gallery */
+
+#gallery {
+  display: flex;
+  align-items: center;
+}
+
+#gallery .list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* #gallery .list .picture {
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+} */
+#gallery .list .picture:hover {
+  transform: scale(1.5);
+  /* z-index: 1; */
+}
+
+/* Contacts */
+#contacts .form {
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "email subject"
+    "msg msg"
+    "submit submit";
+}
+
+#contacts .form input,
+#contacts .form textarea {
+  background: transparent;
+  border: 1px solid var(--gray-black);
+  padding: 0.25rem;
+  width: 100%;
+}
+
+#contacts .form textarea {
+  resize: none;
+}
+
+#contacts .form .email {
+  grid-area: email;
+}
+#contacts .form .subject {
+  grid-area: subject;
+}
+#contacts .form .msg {
+  grid-area: msg;
+}
+
+#contacts .form .btn {
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid var(--gray-black);
+  background-color: var(--gray-black);
+  color: white;
+  grid-area: submit;
+}
